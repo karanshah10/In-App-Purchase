@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.apple.inapppurchaselibrary.co.example.apple.inapppurchaselibrary.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In APP Purchase Demo"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/onPurchase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Purchase Consume Item" />
+
+    <Button
+        android:id="@+id/onPurchasePremium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Purchase Premium Item" />
+
+    <Button
+        android:id="@+id/onPurchaseSubscrib"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Purchase Subscrib Item" />
+
+</LinearLayout>
